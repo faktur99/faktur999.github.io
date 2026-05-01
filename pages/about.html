@@ -1,0 +1,58 @@
+<main class="container mt-5 pt-5">
+  <div class="row align-items-center gy-4">
+    <div class="col-md-4 text-center">
+      <div class="card border-0 shadow-sm p-3">
+        <img src="<?= base_url('assets/images/profile/faktur.jpeg') ?>" alt="Foto Profil" class="profile-photo profile-photo--higher mb-3">
+        <h3 class="mb-1">Faktur Rohman</h3>
+        <p class="text-muted">Mahasiswa Sistem Informasi · Front End Developer</p>
+        <div class="mt-3">
+          <a href="mailto:you@example.com" class="btn btn-primary btn-sm">Hubungi</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-8">
+      <div class="card border-0 shadow-sm p-4 mb-4">
+        <h4>Tentang Saya</h4>
+        <p>Saya adalah mahasiswa Sistem Informasi yang berfokus pada pengembangan antarmuka web.
+		 Saya menyukai desain yang bersih, performa yang ringan, dan pengalaman pengguna yang intuitif.  
+		 saya mengerjakan komponen front-end, integrasi UI, dan optimisasi tampilan responsif.</p>
+        <div class="row">
+          <div class="col-sm-6">
+            <h6>Pendidikan</h6>
+            <ul class="list-unstyled small">
+              <li><strong>S1 Sistem Informasi</strong><br><span class="text-muted">Universitas KH. A. Wahab Hasbullah 2024 — Sekarang</span></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h6>Pengalaman</h6>
+            <ul class="list-unstyled small">
+              <li><strong>Front End </strong><br><span class="text-muted"></span></li>
+		   <li><strong>Intership PT Telkom Indonesia</strong><br><span class="text-muted"></span></li>
+		    <li><strong>Computer Network Installation</strong><br><span class="text-muted"></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card border-0 shadow-sm p-4">
+        
+        <div class="d-flex flex-wrap gap-2 mt-2">
+          <span class="badge bg-primary">HTML</span>
+          <span class="badge bg-success">CSS</span>
+          <span class="badge bg-warning text-dark">JavaScript</span>
+          <span class="badge bg-info text-dark">PHP</span>
+          <span class="badge bg-secondary">MySQL</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="my-5">
+
+  <section>
+    <h4>Minat & Hobi</h4>
+    <p class="text-muted">Membuat antarmuka yang mudah digunakan, membaca dokumentasi teknologi baru, dan bereksperimen dengan desain UI/UX.</p>
+  </section>
+
+</main>
